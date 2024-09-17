@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/style_sa.css" />
+    <link rel="stylesheet" href="/css/style_si.css" />
+    <link rel="stylesheet" href="/css/product-pages.css" />
+    <style>
+      #myUL {
+        list-style: none;
+      }
+
+      .navbar input {
+        align-items: flex-end;
+      }
+      
+      
+      .main-wrapper {
+  margin-top: 0rem;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow-x: 0;
+}
+      
+    </style>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a class="logo"
+        ><img
+          src="/image/logo.jpeg"
+          alt="cell city"
+          height="45rem"
+          width="45rem"
+        />
+        <p>Cell City</p></a
+      >
+
+      <nav class="navbar">
+        <a href="/index.html">home</a>
+        <a href="/categories/apple.html"><strong>Apple</strong></a>
+        <a href="/categories/google.html"><strong>Google</strong></a>
+        <a href="/categories/iQOO.html"><strong>IQOO</strong></a>
+        <a href="/categories/oneplus.html"><strong>Oneplus</strong></a>
+        <a href="/categories/samsung.html"><strong>Samsung</strong></a>
+        <a href="/categories/vivo.html"><strong>Vivo</strong></a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div hidden class="fas fa-shopping-cart Cart-Container" id="cart-btn"></div>
+        <div hidden class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myJunction()"
+          placeholder="Search"
+          title="Type in a name"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+     
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Buy new lates <span>Mobiles</span> in a click</h3>
+        <p>Cell City -</p>
+        <br />
+        <a href="/product-pages/product2.html" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Product lists-->
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="main-title">
+          <h1>Best Seller</h1>
+        </div>
+        <div class="display-style-btns">
+          <button type="button" id="grid-active-btn">
+            <i class="fas fa-th"></i>
+          </button>
+          <button type="button" id="details-active-btn">
+            <i class="fas fa-list-ul"></i>
+          </button>
+        </div>
+<ul id="myUL">
+        <div class="item-list">
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy A73.1.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/samsung A73.html" class="item-name">Samsung Galaxy A73</a>
+              <span>8GB RAM & 128GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹25000</span>
+              </div>
+              <p>
+                Display: 6.7 inches (17.01 cm), Super AMOLED FHD+, 120 Hz Refresh Rate.<br>
+                Memory: 8GB RAM, 128GB ROM.<br>
+                Processor:Qualcomm Snapdragon, Octa Core, 2.4 GHz.<br>
+                Camera:108 MP + 12 MP + 5 MP + 5 MP Quad Rear & 32 MP Front Camera.<br>
+                Battery: 5000 mAh with 25W Fast Charging.<br>
+                Operating system: Android 12.<br>
+                Security (Lock): Password | PIN | Fingerprint Sensor.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/samsung A73.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+         
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/iphone 13 mini.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/iphone 13 mini.html" class="item-name">iPhone 13 mini(Renewed)</a>
+              <span>128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹45000</span>
+              </div>
+              <p>
+                5.4 inches (13.72 cm), Super Retina XDR OLED.<br>
+                   256GB and 128GB ROM.<br>
+                   Apple A15 Bionic, Hexa Core.<br>
+                   12 MP + 12 MP Dual Rear & 12 MP Front Camera.<br>
+                   20W Fast Charging.<br>
+                   A13 Bionic Chip Processor.<br>
+                   Security (Lock): Password | PIN | Fingerprint Sensor | Face Unlock.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/iphone 13 mini.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/google pixel 6 pro.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/google pixel 6 pro.html" class="item-name">Google pixel 6 pro(Renewed)</a>
+              <span> 12GB RAM & 256GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹40000</span>
+              </div>
+              <p>
+               Android 12.<br>
+               12 GB RAM.<br>
+               Rear Camera, USB, Camera.<br>
+               5003 Milliamp Hours.<br>
+               1 Lithium Ion batteries required. (included).<br>
+               50 megapixels,12,12.2 megapixels,108.<br>
+               256 GB.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/google pixel 6 pro.html">Buy Now</a></button>
+            </div>
+          </div></li>
+         
+         <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/samsung galaxy Z fold 3.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/samsung galaxy Z fold 3.html" class="item-name">Samsung Galaxy Z fold 3(Renewed)</a>
+            <span>12GB RAM & 256GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹50000</span>
+            </div>
+            <p>
+            7.6 inches (19.3 cm), AMOLED, 120 Hz Refresh Rate.<br>
+            12GB RAM, 256GB ROM.<br>
+            Qualcomm Snapdragon 888 5G, Octa Core, 1.80 GHz.<br>
+            12 MP + 12 MP + 12 MP Triple Rear & 10 MP Front Camera.<br>
+            Battery 4400 mAh.<br>
+            Android 11.<br>
+            Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/samsung galaxy Z fold 3.html">Buy No</a></button>
+          </div>
+        </div></li>
+         
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/vivo X70 pro.1.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Vivo X70 pro.html" class="item-name">Vivo X70 pro</a>
+              <span> 12GB RAM & 256GB strorage</span>
+              <div class="item-price">
+                <span class="new-price">₹40000</span>
+              </div>
+              <p>
+              50 MP + 12 MP + 12 MP + 8 MP.<br>
+              Front Camera: 32 MP.<br>
+              12 GB RAM and 256 GB internal memory.<br>
+              158.30 mmx73.21 mmx7.99 mm.<br>
+              4450 mAh Li-Polymer battery.<br>
+              Full HD+ E5 AMOLED LTPS.<br>
+              Android 11.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Vivo X70 pro.html">Buy Now</a></button>
+            </div>
+          </div>
+</li>
+           <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/iphone 12.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/iphone 12.html" class="item-name">iPhone 12(Renewed)</a>
+              <span>64GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹38000</span>
+              </div>
+              <p>
+                6.1 inches (15.49 cm), Super Retina XDR.<br>
+                4GB RAM,64GB & 128GB ROM.<br>
+                Apple A14 Bionic, Hexa Core.<br>
+                12 MP + 12 MP Dual Rear & 12 MP Front Camera.<br>
+                2815 mAh with Turbo Charging.<br>
+                Security (Lock): Password | Pattern | PIN | Face Unlock.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/iphone 12.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+         
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/iphone 11 pro max.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/iphone 11 pro max.html" class="item-name">iPhone 11 pro max</a>
+              <span>64GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹35999</span>
+              </div>
+              <p>
+              158 x 77.8 x 8.1 mm (6.22 x 3.06 x 0.32 in).<br>
+              64GB 4GB RAM, 256GB 4GB RAM, 512GB 4GB RAM.<br>
+              iOS 13, up to iOS 15.6, planned upgrade to iOS 16.<br>
+              12MP + 12MP+ 12MP.<br>
+              Li-Ion 3969 mAh, non-removable (15.04 Wh).<br>
+              Face ID, accelerometer, gyro, proximity, compass, barometer.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/iphone 11 pro max.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 12 pro max.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iphone 12 pro max.html" class="item-name">iPhone 12 pro max(Renewed)</a>
+            <span>256GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹51999</span>
+            </div>
+            <p>
+              160.8 x 78.1 x 7.4 mm (6.33 x 3.07 x 0.29 in).<br>
+              256GB 6GB RAM, 512GB 6GB RAM.<br>
+                iOS 14.1.<br>
+             Apple A14 Bionic (5 nm).<br>
+              Hexa-core .<br>
+              Li-Ion 3687 mAh, non-removable (14.13 Wh).<br>
+           Face ID, accelerometer, gyro, proximity, compass, barometer.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iphone 12 pro max.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+          
+
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy Z fold 2.2.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung galaxy Z fold 2.html" class="item-name">Samsung Galaxy Z fold 2</a>
+              <span>12GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹40000</span>
+              </div>
+              <p>
+                7.6 inches (19.3 cm), 372 ppi, Foldable Dynamic AMOLED 2X Display | Fingerprint Sensor.<br>
+                12 GB RAM | 256 GB ROM.<br>
+                12 MP + 12 MP + 12 MP Triple Primary Cameras | 10 MP Front Camera.<br>
+                Octa-core (1x3.09 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585) Processor.<br>
+                4500 mAh Battery .<br>
+                Qualcomm SM8250 Snapdragon 865+.<br>
+                Foldable Dynamic AMOLED 2X.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung galaxy Z fold 2.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/samsung galaxy s21+.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/Samsung galaxy s21+.html" class="item-name">Samsung Galaxy S21+</a>
+            <span>8GB RAM & 128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹32000</span>
+            </div>
+            <p>
+            161.5 x 75.6 x 7.8 mm (6.36 x 2.98 x 0.31 in).<br>
+            8GB RAM & 128GB ROM.<br>
+            Triple Rear Camera (12MP + 12MP + 64MP) | 10MP Front Camera.<br>
+            Samsung Exynos 9 Octacore Processor (9810).<br>
+            4800 mAh Battery .<br>
+            1 Lithium Ion batteries required. (included).<br>
+            AMOLED Display.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/Samsung galaxy s21+.html">Buy Now</a></button>
+          </div>
+        </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy note 20.2.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung Galaxy Note 20.html" class="item-name">Samsung Note 20</a>
+              <span>8GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹32000</span>
+              </div>
+              <p>
+              12 MP + 12 MP + 64 MP &  10 MP (Front Camera).<br>
+              8 GB RAM and 256 GB internal memory.<br>
+              161.6 mmx75.2 mmx8.3 mm.<br>
+              Mystic Bronze.<br>
+              4300 mAh Li-ion battery.<br>
+              Water resistant (up to 30 minutes in a depth of 1.5 meter).<br>
+              Octa core (2.73 GHz, Dual core + 2.31 GHz, Dual core, Cortex A76 + 1.95 GHz, Quad core, Cortex A55).<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung Galaxy Note 20.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/google pixel 6.1.jpg"  />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/google pixel 6.html" class="item-name">Google pixel 6 </a>
+              <span> 12GB RAM & 256GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹39999</span>
+              </div>
+              <p>
+                Screen Size: 6.4 inches.<br>
+                Display Resolution: 2400 x 1080.<br>
+                Storage Capacity: 128 GB, 256 GB.<br>
+                Rear cameras: 50MP wide (f/1.85), 12MP ultrawide (f/2.2).<br>
+                Front camera: 8MP (f/2.0).<br>
+                Battery Capacity: 4,614 mAh.<br>
+               Operating System: Android.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/google pixel 6.html">Buy Now</a></button>
+            </div>
+          </div></li>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- PAger next page and previous page-->
+    <div class="pagination">
+      <a href="#next">&laquo;</a>
+      <a href="/product-pages/product1.html" class="next1 previous1">1</a>
+      <a href="/product-pages/product2.html" class="next2 previous2">2</a>
+      <a href="/product-pages/product3.html" class="next3 previous3">3</a>
+      <a href="/product-pages/product4.html" class="next4 previous4">4</a>
+      <a href="#previous">&raquo;</a>
+    </div>
+
+     <!-- footer section starts  -->
+    
+     <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Cell City <i class="fas"></i></h3>
+          <p>CONTACT US / FOLLOW US ON</p>
+          <div class="share">
+            <a
+              href="https://wa.me/+919820939019"
+              class="fab fa-whatsapp-square"
+              target="_blank"
+            ></a>
+
+            <a
+              href="https://www.instagram.com/ajayinstagrm/"
+              class="fab fa-instagram"
+              target="_blank"
+            >
+            </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="tel:+91 9820939019" class="links">
+            <i class="fas fa-phone"></i> +91 9820939019
+          </a>
+          <a href="mailto:carecellcity@gmail.com" class="links">
+            <i class="fas fa-envelope"></i> carecellcity@gmail.com
+          </a>
+          <a
+            href="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"
+            class="links"
+            target="_blank"
+          >
+            <i class="fas fa-map-marker-alt"></i> mumbai, india
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Policies</h3>
+          <a href="/aboutus1.html" class="links">
+            <i class="fas fa-arrow-right"></i> About Us
+          </a>
+          <a href="/policies/returnandrefunds1.html" class="links">
+            <i class="fas fa-arrow-right"></i> Return & Refund Policy
+          </a>
+          <a href="/policies/privacypolicy.html" class="links">
+            <i class="fas fa-arrow-right"></i> Privacy Policy
+          </a>
+          <a href="/policies/termsandcondition.html" class="links">
+            <i class="fas fa-arrow-right"></i> Terms & Conditions
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>features</h3>
+          <a href="/warrenty.html" class="links">
+            <i class="fas fa-arrow-right"></i> Warrenty
+          </a>
+          <a href="/easypayment.html" class="links">
+            <i class="fas fa-arrow-right"></i> Easy Payment
+          </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/product-pages.js"></script>
+   
+    <script src="/js/search.js"></script>
+  </body>
+</html>

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/style_sa.css" />
+    <link rel="stylesheet" href="/css/style_si.css" />
+    <link rel="stylesheet" href="/css/product-pages.css" />
+    <style>
+      #myUL {
+        list-style: none;
+      }
+
+      .navbar input {
+        align-items: flex-end;
+      }
+      
+      
+      .main-wrapper {
+  margin-top: 0rem;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow-x: 0;
+}
+      
+    </style>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a class="logo"
+        ><img
+          src="/image/logo.jpeg"
+          alt="cell city"
+          height="45rem"
+          width="45rem"
+        />
+        <p>Cell City</p></a
+      >
+
+      <nav class="navbar">
+        <a href="/index.html">home</a>
+        <a href="/categories/apple.html"><strong>Apple</strong></a>
+        <a href="/categories/google.html"><strong>Google</strong></a>
+        <a href="/categories/iQOO.html"><strong>IQOO</strong></a>
+        <a href="/categories/oneplus.html"><strong>Oneplus</strong></a>
+        <a href="/categories/samsung.html"><strong>Samsung</strong></a>
+        <a href="/categories/vivo.html"><strong>Vivo</strong></a>
+       
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div hidden class="fas fa-shopping-cart Cart-Container" id="cart-btn"></div>
+        <div hidden class="fas fa-user" id="login-btn"></div>
+      </div>
+      <form action="" class="search-form">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myJunction()"
+          placeholder="Search"
+          title="Type in a name"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Buy new lates <span>Mobiles</span> in a click</h3>
+        <p>Cell City -</p>
+        <br />
+        <a href="/product-pages/product1.html" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Product lists-->
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="main-title">
+          <h1>Best Seller</h1>
+        </div>
+        <div class="display-style-btns">
+          <button type="button" id="grid-active-btn">
+            <i class="fas fa-th"></i>
+          </button>
+          <button type="button" id="details-active-btn">
+            <i class="fas fa-list-ul"></i>
+          </button>
+        </div>
+<ul id="myUL">
+        <div class="item-list">
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy Z flip 3.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung galaxy Z flip 3.html" class="item-name">Samsung Z Flip 3(Renewed)</a>
+              <span>8GB RAM & 256GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹46000</span>
+              </div>
+              <p>
+              6.7 inches (17.01 cm), FHD, 120 Hz Refresh Rate.<br>
+              8GB RAM, 256GB ROM.<br>
+              Qualcomm Snapdragon, Octa Core.<br>
+              12 MP + 12 MP Dual Rear & 10 MP Front Camera.<br>
+              4520 mAh.<br>
+              Security (Lock): Password | Pattern | PIN | Fingerprint Sensor.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung galaxy Z flip 3.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s21 FE.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/samsung galaxy s21 fe.html" class="item-name">Samsung Galaxy S21 FE</a>
+              <span>6GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹30000</span>
+              </div>
+              <p>
+              6.4 inches (16.25 cm), AMOLED, 120 Hz Refresh Rate.<br>
+              6GB RAM ,8GB RAM & 128GB ROM.<br>
+              Samsung Exynos 2100, Octa Core, 2 GHz.<br>
+              12 MP + 12 MP + 8 MP Triple Rear & 32 MP Front Camera.<br>
+              4500 mAh.<br>
+              Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/samsung galaxy s21 fe.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 9RT.1.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Oneplus 9RT.html" class="item-name">OnePlus 9RT</a>
+              <span>12GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹28000</span>
+              </div>
+              <p>
+                6.61 inches (16.81 cm), AMOLED, 120 Hz Refresh Rate.<br>
+                12GB RAM, 256GB ROM.<br>
+                Qualcomm Snapdragon  888 Processor, Octa Core, 2 GHz.<br>
+                50 MP + 16 MP + 2 MP Triple Rear & 16 MP Front Camera.<br>
+                4500 mAh .<br>
+                Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+                Android 11.<br>
+              </p>
+              <button type="button" class="add-btn"> 
+                <a href="/specification-pages/Oneplus 9RT.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/vivo v23.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Vivo V23.html" class="item-name">Vivo V23</a>
+              <span>8GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹20000</span>
+              </div>
+              <p>
+               6.44 inches (16.35 cm), Super AMOLED.<br>
+               8GB RAM & 128GB ROM,12GB RAM & 256GB ROM.<br>
+               MediaTek Dimensity 920, Octa Core, 2.5 GHz.<br>
+               64 MP + 8 MP + 2 MP Triple Rear & 5 MP Front Camera.<br>
+               4200 mAh with 44W Fast Charging .<br>
+               Security (Lock): Password | Pattern | PIN | Fingerprint Sensor.<br> 
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Vivo V23.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/vivo v23 pro.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Vivo V23 pro.html" class="item-name">Vivo V23 pro</a>
+              <span> 8GB RAM & 128GB strorage</span>
+              <div class="item-price">
+                <span class="new-price">₹25000</span>
+              </div>
+              <p>
+                6.56 inches (16.65 cm), Super AMOLED, 90 Hz Refresh Rate.<br>
+                8GB RAM & 128GB ROM,12GB RAM & 256GB ROM.<br>
+                MediaTek Dimensity 1200, Octa Core, 3 GHz.<br>
+                108 MP + 8 MP + 2 MP Triple Rear & 5 MP Front Camera .<br>
+                4300 mAh with 44W Fast Charging .<br>
+                Security (Lock): Password | Pattern | PIN | Fingerprint Sensor.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Vivo V23 pro.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+        <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 13.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/Iphone 13.html" class="item-name">iPhone 13(Renewed)</a>
+            <span>128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹44999</span>
+            </div>
+            <p>
+             6.1 inches (15.4 cm), Super Retina XDR OLED.<br>
+             128GB ROM , 256 ROM.<br>
+             Apple A15 Bionic, Hexa Core.<br>
+             12 MP + 12 MP Dual Rear & 12 MP Front Camera.<br>
+             15W Wireless Charging.<br>
+             New 6-core CPU With 2 Performance And 4 Efficiency Cores.<br>
+             Face ID enabled by TrueDepth camera.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/Iphone 13.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+         
+        <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 13 pro max.1.jpg" />
+           
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iphone 13 pro max.html" class="item-name">iPhone 13 pro max(Renewed)</a>
+            <span>128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹51999</span>
+            </div>
+            <p>
+             6.7 inches (17.02 cm), Super Retina XDR, 120 Hz Refresh Rate.<br>
+             128GB & 256GB ROM.<br>
+             Apple A15 Bionic, Hexa Core.<br>
+             12 MP + 12 MP + 12 MP Triple Rear & 12 MP Front Camera.<br>
+             20W Fast Charging .<br>
+             Security (Lock): Password | PIN | Fingerprint Sensor | Face Unlock.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iphone 13 pro max.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+          
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s22 ultra.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/samsung galaxy s22 ultra.html" class="item-name">Samsung Galaxy S22 Ultra(Renewed)</a>
+              <span>12GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹46999</span>
+              </div>
+              <p>
+              6.8 inches (17.3 cm), AMOLED, 120 Hz Refresh Rate.<br>
+              12GB RAM, 256GB ROM.<br>
+              Qualcomm Snapdragon, Octa Core, 2 GHz.<br>
+              12 MP + 108 MP + 10 MP + 10 MP Quad Rear & 40 MP Front Camera.<br>
+              5000 mAh with 45W Fast Charging.<br>
+              Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/samsung galaxy s22 ultra.html">Buy Now</a></button>
+            </div>
+          </div></li>
+         
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/IQOO 9 pro.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/IQOO 9 pro.html" class="item-name">iQOO 9 pro(Renewed)</a>
+              <span>256GB storage & 8GB RAM (5G)</span>
+              <div class="item-price">
+                <span class="new-price">₹35000</span>
+              </div>
+              <p>
+              Funtouch OS 12 based on Android 12.<br>
+              8GB RAM & 256GB.<br>
+              16.5 x 7.7 x 0.8 cm; 210 Grams.<br>
+              AMOLED Display.<br>
+              USB Type-C, Wi-Fi 6, Bluetooth 5.2, Audio Jack: Type-C.<br>
+              Snapdragon 8 Gen 1 Mobile Processor.<br>
+              Fast Charging Support, 4K Video Recording, Fingerprint Sensor, Wireless Charging, Dual SIM, GPS, Video Player, Music Player.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/IQOO 9 pro.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+           <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/IQOO 9.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/IQOO 9.html" class="item-name">iQOO 9(Renewed)</a>
+              <span>8GB RAM & 256GB storage (5G)</span>
+              <div class="item-price">
+                <span class="new-price">₹28000</span>
+              </div>
+              <p>
+              50 MP + 50 MP + 16 MP & 16MP Front Camera.<br>
+              8 GB RAM 128GB internal memory &  12GB RAM and 256GB internal memory.<br>
+              164.8 mmx75.2 mmx8.8 mm.<br>
+              4700 mAh Li-Polymer battery.<br>
+              Android v12.<br>
+              Qualcomm Snapdragon 8 Gen 1.<br>
+              Octa core (3 GHz, Single core, Cortex X2 + 2.5 GHz, Tri core, Cortex A710 + 1.8 GHz, Quad core, Cortex A510).<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/IQOO 9.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+         <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/IQOO 9 SE.1.jpg" />
+           
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/IQOO 9 SE.html" class="item-name">iQOO 9 SE</a>
+            <span>8GB RAM & 128GB storage (5G)</span>
+            <div class="item-price">
+              <span class="new-price">₹25000</span>
+            </div>
+            <p>
+              Funtouch OS 12 based on Android 12.<br>
+              8GB RAM 128GB ROM & 12GB RAM 256GB ROM.<br>
+              16.3 x 7.6 x 0.8 cm; 196 Grams (Product Dimensions).<br>
+              AMOLED Display.<br>
+              Fast Charging Support, 4K Video Recording, Octa Core Processor, Fingerprint Sensor, Dual SIM, GPS, Video Player, Music Player.<br> 
+              USB Type-C, Wi-Fi 6, Bluetooth 5.2, Audio Jack: Type-C.<br>
+              
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/IQOO 9 SE.html">Buy Now</a></button>
+          </div>
+        </div></li>
+         
+            <li><div class="item">
+              <div class="item-img">
+                <img src="/products images/IQOO 7.1.jpg" />
+                
+              </div>
+              <div class="item-detail">
+                <a href="/specification-pages/IQOO 7.html" class="item-name">iQOO 7</a>
+                <span>8GB RAM & 128GB storage (5G)</span>
+                <div class="item-price">
+                  <span class="new-price">₹20000</span>
+                </div>
+                <p>
+                Qualcomm Snapdragon 870 5G Mobile Platform.<br>
+                Intelligent Display Chip with Enhanced Frame Rate & All HDR.<br>
+                48MP OIS Main camera with Sony IMX598 sensor.<br>
+                66W FlashCharge with 4400mAh Battery.<br>
+                16.82cm (6.62) 120Hz AMOLED Display with 1300 peak brightness along with 300Hz Touch Sampling Rate.<br>
+                6000mm² Graphite Layer Full Coverage Liquid Cooling Technology.<br>
+                AMOLED Display.<br>
+                </p>
+                <button type="button" class="add-btn">
+                  <a href="/specification-pages/IQOO 7.html">Buy Now</a></button>
+              </div>
+            </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/IQOO Z6 pro.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/IQOO Z6 pro.html" class="item-name">iQOO Z6 pro</a>
+              <span>8GB RAM & 128GB storage (5G)</span>
+              <div class="item-price">
+                <span class="new-price">₹20000</span>
+              </div>
+              <p>
+                64 MP + 8 MP + 2 MP & 16MP (Front Camera).<br>
+                6GB RAM 128GB internal memory &  8GB RAM and 128GB internal memory &  12GB RAM and 256GB internal memory.<br>
+                159.6 mmx73.5 mmx8.49 mm (Dimensions).<br>
+                4700 mAh Li-ion battery.<br>
+                Android v12.<br>
+                Qualcomm Snapdragon 778G.<br>
+                FHD+ AMOLED Display.<br>           
+      
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/IQOO Z6 pro.html">Buy Now</a></button>
+            </div>
+          </div></li>
+          
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/IQOO Z3.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/IQOO Z3.html" class="item-name">iQOO Z3</a>
+            <span>8GB RAM & 256GB storage (5G)</span>
+            <div class="item-price">
+              <span class="new-price">₹17000</span>
+            </div>
+            <p>
+              Qualcomm Snapdragon 768G 5G processor, 7nm chip and octa-core processor.<br>
+              55W FlashCharge can charge the 4400mAh battery up to 50% in just 19 minutes* and a full charge in just 50 minutes.<br>
+              64MP AF Main Camera with f/1.79 Aperture supported by GW3 sensor loaded with professional features like 4K videos @ 60FPS, EFB Autofocus Tracking and more. The device also comes with a 16MP Front Camera.<br>
+              120Hz Refresh Rate | 180Hz Touch Sampling Rate.<br>
+              Five-layer liquid cooling system can reduce the core temperature by 10 degrees.<br>
+              Android 11 - Funtouch OS 11.1 Global, Android 11 - Funtouch OS 11.1 Global;Funtouch OS 11.1 Global.<br>
+              1 Lithium Ion batteries required. (included).<br>          
+           
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/IQOO Z3.html">Buy Now</a></button>
+          </div>
+        </div></li>
+
+        <li>
+          <div class="item-img">
+          <img src="/products images/vivo x80 pro.1.jpg" />
+         
+        </div>
+        <div class="item-detail">
+          <a href="/specification-pages/vivo x80-pro.html" class="item-name">Vivo X80 Pro(Renewed)</a>
+          <span> 12GB RAM & 256GB strorage</span>
+          <div class="item-price">
+            <span class="new-price">₹34999</span>
+          </div>
+          <p>
+           Display: 6.78-inch (1440x3200).<br>
+           Storage: 256GB.<br>
+          Front Camera: 32MP.<br>
+            Rear Camera 50MP + 48MP + 12MP + 8MP.<br>
+            Front camera: 8MP (f/2.0).<br>
+            Processor: Qualcomm Snapdragon 8 Gen 1.<br>
+           Battery Capacity 4700mAh, 80W Flash Charging.<br>
+            Operating System: Android 12.<br>
+          </p>
+          <button type="button" class="add-btn">
+            <a href="/specification-pages/vivo x80-pro.html">Buy Now</a></button>
+        </div>
+      </div>
+    </li>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- PAger next page and previous page-->
+    <div class="pagination">
+      <a href="#next">&laquo;</a>
+      <a href="/product-pages/product1.html" class="next1 previous1">1</a>
+      <a href="/product-pages/product2.html" class="next2 previous2">2</a>
+      <a href="/product-pages/product3.html" class="next3 previous3">3</a>
+      <a href="/product-pages/product4.html" class="next4 previous4">4</a>
+      <a href="#previous">&raquo;</a>
+    </div>
+
+      <!-- footer section starts  -->
+    
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Cell City <i class="fas"></i></h3>
+            <p>CONTACT US / FOLLOW US ON</p>
+            <div class="share">
+              <a
+                href="https://wa.me/+919820939019"
+                class="fab fa-whatsapp-square"
+                target="_blank"
+              ></a>
+  
+              <a
+                href="https://www.instagram.com/ajayinstagrm/"
+                class="fab fa-instagram"
+                target="_blank"
+              >
+              </a>
+            </div>
+          </div>
+  
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:+91 9820939019" class="links">
+              <i class="fas fa-phone"></i> +91 9820939019
+            </a>
+            <a href="mailto:carecellcity@gmail.com" class="links">
+              <i class="fas fa-envelope"></i> carecellcity@gmail.com
+            </a>
+            <a
+              href="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"
+              class="links"
+              target="_blank"
+            >
+              <i class="fas fa-map-marker-alt"></i> mumbai, india
+            </a>
+          </div>
+  
+          <div class="box">
+            <h3>Policies</h3>
+            <a href="/aboutus1.html" class="links">
+              <i class="fas fa-arrow-right"></i> About Us
+            </a>
+            <a href="/policies/returnandrefunds1.html" class="links">
+              <i class="fas fa-arrow-right"></i> Return & Refund Policy
+            </a>
+            <a href="/policies/privacypolicy.html" class="links">
+              <i class="fas fa-arrow-right"></i> Privacy Policy
+            </a>
+            <a href="/policies/termsandcondition.html" class="links">
+              <i class="fas fa-arrow-right"></i> Terms & Conditions
+            </a>
+          </div>
+  
+          <div class="box">
+            <h3>features</h3>
+            <a href="/warrenty.html" class="links">
+              <i class="fas fa-arrow-right"></i> Warrenty
+            </a>
+            <a href="/easypayment.html" class="links">
+              <i class="fas fa-arrow-right"></i> Easy Payment
+            </a>
+          </div>
+        </div>
+  
+        <div class="credit">
+          Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+        </div>
+      </section>
+  
+      <!-- footer section ends -->
+  
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  
+      <!-- custom js file link  -->
+      <script src="/js/script.js"></script>
+      
+      <script src="/js/product-pages.js"></script>
+     
+      <script src="/js/search.js"></script>
+  </body>
+</html>

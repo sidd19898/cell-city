@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop | Products</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/style_sa.css" />
+    <link rel="stylesheet" href="/css/style_si.css" />
+    <link rel="stylesheet" href="/css/product-pages.css" />
+    <style>
+      #myUL {
+        list-style: none;
+      }
+
+      .navbar input {
+        align-items: flex-end;
+      }
+      
+      .main-wrapper {
+  margin-top: 0rem;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+   <!-- header section starts  -->
+
+   <header class="header">
+    <a class="logo"
+      ><img
+        src="/image/logo.jpeg"
+        alt="cell city"
+        height="50rem"
+        width="50rem"
+      />
+      <p>Cell City</p></a
+    >
+
+    <div class="navbar">
+      <nav>
+        <a href="/index.html">home</a>
+        <a href="/categories/apple.html"><strong>Apple</strong></a>
+        <a href="/categories/google.html"><strong>Google</strong></a>
+      <a href="/categories/iQOO.html"><strong>IQOO</strong></a>
+      <a href="/categories/oneplus.html"><strong>Oneplus</strong></a>
+      <a href="/categories/samsung.html"><strong>Samsung</strong></a>
+      <a href="/categories/vivo.html"><strong>Vivo</strong></a>
+      </nav>
+    </div>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div hidden class="fas fa-shopping-cart Cart-Container" id="cart-btn"></div>
+      <div hidden class="fas fa-user" id="login-btn"></div>
+    </div>
+    <form action="" class="search-form">
+      <input
+        type="text"
+        id="myInput"
+        onkeyup="myJunction()"
+        placeholder="Search"
+        title="Type in a name"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+  </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Buy new lates <span>Mobiles</span> in a click</h3>
+        <p>Cell City -</p>
+        <br />
+        <a href="/product-pages/product4.html" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Product lists-->
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="main-title">
+          <h1>Best Seller</h1>
+        </div>
+        <div class="display-style-btns">
+          <button type="button" id="grid-active-btn">
+            <i class="fas fa-th"></i>
+          </button>
+          <button type="button" id="details-active-btn">
+            <i class="fas fa-list-ul"></i>
+          </button>
+        </div>
+        <ul id="myUL">
+        <div class="item-list">
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/iphone 11 pro max.3.jpg">
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/iphone 11 pro.html" class="item-name">iPhone 11 pro</a>
+              <span>4GB RAM & 64GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹32000</span>
+              </div>
+              <p>
+                6.7 inches (17.02 cm), Super Retina XDR, 120 Hz Refresh Rate.<br>
+                  128GB & 256GB ROM.<br>
+                  Apple A15 Bionic, Hexa Core.<br>
+                  12 MP + 12 MP + 12 MP Triple Rear & 12 MP Front Camera.<br>
+                  20W Fast Charging.<br>
+                  Security (Lock): Password | PIN | Fingerprint Sensor | Face Unlock.
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/iphone 11 pro.html">Buy Now</a>
+              </button>
+            </div>
+          </div>
+</li>
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 11.jpg" />
+            <div class="icon-list">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button type="button">
+                <i class="far fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iPhone-11.html" class="item-name">iPhone 11</a>
+            <span>4GB RAM & 64GB</span>
+            <div class="item-price">
+              <span class="new-price">₹30000</span>
+            </div>
+            <p>
+              64 GB ROM.<br>
+              Internal Storage 64 GB.<br>
+               14.73 cm (5.8 inch) Super Retina XDR Display.<br>
+               12MP + 12MP + 12MP | 12MP Front Camera.<br>
+               iOS 13.<br>
+               A13 Bionic Chip Processor.<br>
+               Network Type: 4G VPLTE, 4G, 3G, 2G.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iPhone-11.html">Buy Now</a>
+            </button>
+          </div>
+        </div>
+</li>
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/iphone X.2.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/iPhoneX.html" class="item-name">iPhone X</a>
+              <span>3GB RAM & 64GB</span>
+              <div class="item-price">
+                <span class="new-price">₹22000</span>
+              </div>
+              <p>
+                Display: 5.8 inches (14.73 cm), Super Retina HD.<br>
+                Memory: 4GB RAM, 64GB ROM.<br>
+                Processor: Apple A11 Bionic Chip with 64-bit Architecture, NeuralEngine, Embedded M11 Motion Coprocessor.<br>
+                Camera: 12MP + 12MP Dual Rear & 12MP Front Camera.<br>
+                Security (Lock): Password | Pattern | Pin | Face Unlock.<br>
+                GPU (Graphic): Apple GPU (4-core Graphics) Next-generation NeuralEngine.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/iPhoneX.html">Buy Now</a>
+              </button>
+            </div>
+          </div>
+</li>
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s20 ultra.1.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung S20 ultra.html" class="item-name">Samsung Galaxy S20 Ultra(Renewed)</a>
+              <span>12GB RAM, 128GB ROM</span>
+              <div class="item-price">
+                <span class="new-price">₹30000</span>
+              </div>
+              <p>
+                Display:6.2 inches (15.74 cm), AMOLED.<br>
+                Memory: 8GB RAM, 128GB ROM, microSD Card upto 1TB.<br>
+                Processor: Octa Core, 2.73 GHz.<br>
+                Camera: 12 MP + 64 MP + 12 MP Triple Rear & 10 MP Front Camera.<br>
+                Battery: 4000 mAh.<br>
+                Operating system: Android 12, Firmware-One UI 2.<br>
+                Security (Lock): In-display Fingerprint Sensor.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung S20 ultra.html">Buy Now</a></button>
+              
+            </div>
+          </div>
+</li>
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s20 FE.1.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung S20FE.html" class="item-name">Samsung Galaxy S20 FE</a>
+              <span> 8GB RAM & 256GB strorage</span>
+              <div class="item-price">
+                <span class="new-price">₹35000</span>
+              </div>
+              <p>
+                12 MP + 8 MP + 12 MP & 32MP (Front Camera).<br>
+                8GB RAM and 256GB internal memory.<br>
+                159.8 mmx74.5 mmx8.4 mm.<br>
+                4500 mAh Li-ion battery.<br>
+                Android v11.<br>
+                Qualcomm SM8250 Snapdragon 865 (7 nm+).<br>
+                Octa-core (1x2.84 GHz Kryo 585 & 3x2.42 GHz Kryo 585 & 4x1.8 GHz Kryo 585).<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung S20FE.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+         
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/samsung galaxy note 20 ultra.3.jpg" width="10rem" height="240rem" />
+            <div class="icon-list">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button type="button">
+                <i class="far fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/Samsung Note20 ultra.html" class="item-name">Samsung Galaxy Note 20 Ultra</a>
+            <span>12GB RAM & 256GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹35000</span>
+            </div>
+            <p>
+              108 MP + 12 MP + 12 MP & 10 MP (Front Camera).<br>
+              12 GB RAM and 256 GB internal memory.<br>
+              164.8 mmx77.2 mmx8.1 mm.<br>
+              4500 mAh Li-ion battery.<br>
+              Samsung Exynos 9 Octa 990.<br>
+              Dynamic AMOLED Display.<br>
+              Corning Gorilla Glass v7.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/Samsung Note20 ultra.html">Buy Now</a>
+            </button>
+          </div>
+        </div>
+</li>
+          
+         
+          <li>  <div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 10 pro.1.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus 10 pro.html" class="item-name">Oneplus 10 pro(Renewed)</a>
+              <span>8GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹35000</span>
+              </div>
+              <p>
+                Display: 6.7 inches (17.01 cm), QHD+ AMOLED, 120 Hz Refresh Rate.<br>
+                Memory: 8GB RAM, 128GB ROM.<br>
+                Processor: Qualcomm Snapdragon 8 Gen 1.<br>
+                Camera:48 MP + 50 MP + 8 MP Triple Rear & 32 MP Front Camera.<br>
+                Battery: 5000 mAh with 50W Fast Charging.<br>
+                Operating system: OxygenOS, 8 Gen, Graphic Adrena 730.<br>
+                Security (Lock): In-display Fingerprint Sensor.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus 10 pro.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+        
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 8 pro.1.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus 8 pro.html" class="item-name">OnePlus 8 pro</a>
+              <span>128GB storage & 8GB RAM</span>
+              <div class="item-price">
+                <span class="new-price">₹25000</span>
+              </div>
+              <p>
+                Display: 6.78 inches (17.22 cm) 3168 x 1440 px 513 ppi, Fluid AMOLED Display.<br>
+                Memory: 8GB RAM, 128GB ROM.<br>
+                Processor: Octa core (2.84 GHz, Single Core + 2.42 GHz, Tri core + 1.8 GHz, Quad core) Snapdragon 865 Processor.<br>
+                Camera: 48 MP + 8 MP + 48 MP + 5 MP Quad Primary Cameras | 16 MP Front Camera.<br>
+                Battery: 4510 mAh Battery.<br>
+                Operating system: Android OS, Graphic Adreno 650.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus 8 pro.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+         
+           <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 8T.1.jpg" width="50px" height="250rem" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus 8T.html" class="item-name">Oneplus 8T</a>
+              <span>128GB storage & 8GB RAM</span>
+              <div class="item-price">
+                <span class="new-price">₹25000</span>
+              </div>
+              <p>
+                Memory: 8 GB RAM and 128 GB internal memory.<br>
+                Processor: Qualcomm Snapdragon 865.<br>
+                Rear Camera: 48 MP + 16 MP + 5 MP + 2 MP.<br>
+                Front Camera: 16 MP.<br>
+                Battery: 4500 mAh Li-ion battery.<br>
+                Operating system: Android v10 (Q).<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus 8T.html.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+          <li>  <div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 7 pro.4.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus 7 pro.html" class="item-name">Oneplus 7 pro</a>
+              <span>6GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹20000</span>
+              </div>
+              <p>
+                Display:6.67 inches (16.94 cm), Fluid AMOLED, 90 Hz Refresh Rate.<br>
+                  Memory: 6GB RAM, 128GB ROM.<br>
+                  Processor: Qualcomm SM8150 Snapdragon, Octa Core, 2.84 GHz.<br>
+                  Camera: 48 MP + 8 MP + 16 MP Triple Rear & 16 MP Front Camera.<br>
+                  Battery: 4000 mAh with Warp Charge 30 Fast Charging.<br>
+                  Security (Lock): Password | Pattern | PIN | In-display Fingerprint Sensor | Face Unlock.<br>
+                  Operating system: OxygenOS Android 9 (Pie).<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus 7 pro.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+        
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/oneplus nord.4.jpg" />
+            <div class="icon-list">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button type="button">
+                <i class="far fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/oneplus nord.html" class="item-name">OnePlus Nord</a>
+            <span>8GB RAM & 128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹18000</span>
+            </div>
+            <p>
+              Display: 6.43 inches (16.33 cm), Fluid AMOLED, 90 Hz Refresh Rate.<br>
+              Memory: 6GB RAM, 128GB ROM.<br>
+              Processor: Qualcomm Snapdragon 750G, Octa Core, 2.4 GHz.<br>
+              Rear Camera:48 MP + 8 MP + 5 MP + 2 MP.<br>
+              Front Camera: 32MP + 8MP.<br>
+              Battery: 4115 mAh Li-ion battery.<br>
+              Security (Lock): Password | Pattern | Pin | | Fingerprint Sensor | Face Unlock.<br>
+              Operating system: Android v10 (Q) Graphics - Adreno 620.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/oneplus nord.html">Buy Now</a>
+            </button>
+          </div>
+        </div>
+</li>
+           <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s20.4.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/Samsung S20.html" class="item-name">Samsung Galaxy S20</a>
+              <span>8GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹28000</span>
+              </div>
+              <p>
+                64+12+12MP triple rear camera - 64MP OIS F2.0 tele camera + 12MP F2.2 ultra wide + 12MP (2PD) OIS F1.8 wide rear camera | 10MP (2PD) OIS F2.2 front punch hole camera | rear LED flash.<br>
+                15.83 centimeters (6.2-inch) dynamic AMOLED display with capacitive touchscreen, 3200 x 1440 pixels resolution | Quad HD+ resolution.<br>
+                Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM (nano+nano) dual-standby (4G+4G), microSD card slot (expandable upto 1 TB), hybrid sim slot.<br>
+                Android v10.0 operating system with 2.73GHz+2.5GHz+2GHz Exynos 990 octa core processor.<br>
+                4000mAH (non-removable) lithium-ion battery | Face-unlock & finger print sensor.<br>
+                Exynos.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/Samsung S20.html">Buy Now</a>
+              </button>
+            </div>
+          </div>
+</li>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- PAger next page and previous page-->
+    <div class="pagination">
+      <a href="#next">&laquo;</a>
+      <a href="/product-pages/product1.html" class="next1 previous1">1</a>
+      <a href="/product-pages/product2.html" class="next2 previous2">2</a>
+      <a href="/product-pages/product3.html" class="next3 previous3">3</a>
+      <a href="/product-pages/product4.html" class="next4 previous4">4</a>
+      <a href="#previous">&raquo;</a>
+    </div>
+
+      <!-- footer section starts  -->
+    
+        <section class="footer">
+          <div class="box-container">
+            <div class="box">
+              <h3>Cell City <i class="fas"></i></h3>
+              <p>CONTACT US / FOLLOW US ON</p>
+              <div class="share">
+                <a
+                  href="https://wa.me/+919820939019"
+                  class="fab fa-whatsapp-square"
+                  target="_blank"
+                ></a>
+    
+                <a
+                  href="https://www.instagram.com/ajayinstagrm/"
+                  class="fab fa-instagram"
+                  target="_blank"
+                >
+                </a>
+              </div>
+            </div>
+    
+            <div class="box">
+              <h3>contact info</h3>
+              <a href="tel:+91 9820939019" class="links">
+                <i class="fas fa-phone"></i> +91 9820939019
+              </a>
+              <a href="mailto:carecellcity@gmail.com" class="links">
+                <i class="fas fa-envelope"></i> carecellcity@gmail.com
+              </a>
+              <a
+                href="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"
+                class="links"
+                target="_blank"
+              >
+                <i class="fas fa-map-marker-alt"></i> mumbai, india
+              </a>
+            </div>
+    
+            <div class="box">
+              <h3>Policies</h3>
+              <a href="/aboutus1.html" class="links">
+                <i class="fas fa-arrow-right"></i> About Us
+              </a>
+              <a href="/policies/returnandrefunds1.html" class="links">
+                <i class="fas fa-arrow-right"></i> Return & Refund Policy
+              </a>
+              <a href="/policies/privacypolicy.html" class="links">
+                <i class="fas fa-arrow-right"></i> Privacy Policy
+              </a>
+              <a href="/policies/termsandcondition.html" class="links">
+                <i class="fas fa-arrow-right"></i> Terms & Conditions
+              </a>
+            </div>
+    
+            <div class="box">
+              <h3>features</h3>
+              <a href="/warrenty.html" class="links">
+                <i class="fas fa-arrow-right"></i> Warrenty
+              </a>
+              <a href="/easypayment.html" class="links">
+                <i class="fas fa-arrow-right"></i> Easy Payment
+              </a>
+            </div>
+          </div>
+    
+          <div class="credit">
+            Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+          </div>
+        </section>
+    
+        <!-- footer section ends -->
+    
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+        <!-- custom js file link  -->
+        <script src="/js/script.js"></script>
+        
+        <script src="/js/product-pages.js"></script>
+       
+        <script src="/js/search.js"></script>
+  </body>
+</html>

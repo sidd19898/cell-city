@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+      <link rel="stylesheet" href="css/demo.css" />
+
+      <link rel="stylesheet" href="css/style_sa.css" />
+  
+      <!-- custom css file link  -->
+      <link rel="stylesheet" href="css/style_si.css" />
+  </head>
+  <body>
+   <!-- header section starts  -->
+
+   <header class="header">
+    <a class="logo"
+      ><img
+        src="/image/logo.jpeg"
+        alt="cell city"
+        height="45rem"
+        width="45rem"
+      />
+      <p>Cell City</p></a
+    >
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="/product-pages/product1.html">Products</a>
+      <a href="#categories">Catgeories</a>
+      <a href="#review">Review</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart Cart-Container" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here..." />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <h4>cart</h4>
+      </div>
+      <div class="ex1">
+        <div class="cart"></div>
+      </div>
+    </div>
+
+    <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="your email" class="box" />
+      <input type="password" placeholder="your password" class="box" />
+      <p>forget your password <a href="#">click here</a></p>
+      <p> <strong>LOGIN UNDER MAINTAINANCE </strong> </p>
+      <p> <a href="/register.html">Register Now</a></p>
+      <input type="submit" value="login now" class="btn" />
+    </form>
+  </header>
+
+  <!-- header section ends -->
+
+  <br> <br> <br> <br> <br> <br> <br> <br>
+
+<form action="action_page.php" method="post" onsubmit="return validateForm()">
+  <div class="container">
+    <h1>REGISTER</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr> 
+    <label for="firstname"><b>FIRSTNAME</b></label>
+    <input type="text" placeholder="Enter Your Firstname" name="firstname" id="firstname" required/>
+    <span id = "mg1" style="color:red"> </span>
+    
+    <label for="lastname"><b>LASTNAME</b></label>
+    <input type="text" placeholder="Enter Your Lastname" name="lastname" id="lastname" required/>
+    <span id = "mg2" style="color:red"> </span>
+    
+    <label for="bday"><b>D.O.B</b></label>
+    <fieldset border="1"><input type="date" name="bday" id="bday" required/></fieldset>
+    <span id = "mg3" style="color:red"> </span>
+    <br/>
+<div>
+    <label for="gender"><b>GENDER</b></label> <br>
+    <label for="gender"><input type="radio" name="gender" id="gender" class="inline" required/> MALE</label>
+    <label for="gender"><input type="radio" name="gender" id="gender" class="inline" required/> FEMALE</label>
+    <label for="gender"><input type="radio" name="gender" id="gender" class="inline" required/> OTHERS</label>
+    <span id = "mg4" style="color:red"> </span>
+    <br/>
+</div>
+    <label for="mobileno"><b>MOBILE NO</b></label>
+    <input type="number" placeholder="Enter Mobile No" name="mobileno" id="mobileno" required/>
+    <span id = "mg5" style="color:red"> </span>
+    
+    <label for="email"><b>EMAIL</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required/>
+    <span id = "mg6" style="color:red"> </span>
+    
+    <label for="address1"><b>ADDRESS 1<b></label>
+    <input type="text" placeholder="Enter Your current Address..." name="address1" id="address1" maxlength="80" required/>
+    <span id = "mg7" style="color:red"> </span>
+
+    <label for="address2"><b>ADDRESS 2<b></label>
+    <input type="text" placeholder="Enter Your current Address..." name="address2" id="address2" maxlength="80"/>
+    <span id = "mg8" style="color:red"> </span>
+
+    <label for="state"><b>STATE<b></label>
+    <input type="text" placeholder="Which State Do You belong to..." name="state" id="state" maxlength="80" required/>
+    <span id = "mg9" style="color:red"> </span>
+
+    <label for="city"><b>CITY<b></label>
+    <input type="text" placeholder="Enter Your City Name Here..." name="city" id="city" maxlength="80" required/>
+    <span id = "mg10" style="color:red"> </span>
+
+    <label for="pincode"><b>PIN CODE<b></label>
+    <input type="number" placeholder="Pin code" name="pincode" id="pincode" maxlength="80" required/>
+    <span id = "mg11" style="color:red"> </span>
+    
+    <hr>
+    
+    
+    <p>By creating an account you agree to our <a href="#">Terms & Conditions</a>.</p>
+    <button type="submit" class="btn register">Register</button>
+  </div>
+
+  <div class="container login">
+    <p>Already have an account? <a href="index.html">LOGIN NOW</a>.</p>
+  </div>
+</form>
+ <!-- footer section starts  -->
+
+ <section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>Cell City <i class="fas"></i></h3>
+      <p>
+        CONTACT US / FOLLOW US ON
+      </p>
+      <div class="share">
+        <a href="https://wa.me/+919820939019" class="fab fa-whatsapp-square" target="_blank"></a>
+        
+        <a href="https://www.instagram.com/ajayinstagrm/" class="fab fa-instagram" target="_blank"> </a>
+        
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="tel:+91 9820939019" class="links">
+        <i class="fas fa-phone"></i> +91 9820939019
+      </a>
+      <a href="mailto:cellcity@gmail.com" class="links">  
+        <i class="fas fa-envelope"></i> cellcity@gmail.com
+      </a>
+      <a href ="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"     class ="links"  target="_blank">
+        <i class="fas fa-map-marker-alt"></i> mumbai, india
+      </a>
+    </div>
+
+    <div class="box">
+      <h3>Policies</h3>
+      <a href="#" class="links">
+        <i class="fas fa-arrow-right"></i> About Us
+      </a>
+      <a href="/policies/returnandrefunds1.html" class="links">
+        <i class="fas fa-arrow-right"></i> Return & Refund Policy
+      </a>
+      <a href="/policies/privacypolicy.html" class="links">
+        <i class="fas fa-arrow-right"></i> Privacy Policy
+      </a>
+      <a href="/policies/termsandcondition.html" class="links">
+        <i class="fas fa-arrow-right"></i> Terms & Conditions
+      </a>
+    </div>
+
+    <div class="box">
+      <h3>features</h3>
+      <a href="/warrenty.html" class="links">
+        <i class="fas fa-arrow-right"></i> Warrenty
+      </a>
+      <a href="#" class="links">
+        <i class="fas fa-arrow-right"></i> Easy Payment
+      </a>
+    </div>
+  </div>
+
+  <div class="credit">
+    Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+  </div>
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/script.js"></script>
+<script src="/js/cart.js"></script>
+</body>
+</html>
+
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.2s linear;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=number], input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.btn {
+  background-color: white;
+  color: cyan;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 2px solid orange;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+.register {
+  border-color: #ff9800;
+  color: cyan;
+}
+
+.register:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+/* Add a blue text color to links */
+a {
+  color: blue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.login {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+</style>
+
+
+<script>
+function validateForm() {
+    //collect form data in JavaScript variables
+    var name1 = document.getElementById("firstname").value;
+    var name2 = document.getElementById("lastname").value;
+    var num = document.getElementById("mobileno").value;
+    var email = document.getElementById("email").value;
+    var address1 = document.getElementById("address1").value;
+    var address2 = document.getElementById("address2").value;
+    var state = document.getElementById("state").value;
+    var city = document.getElementById("city").value;
+    var pincode = document.getElementById("pincode").value;
+
+    //check empty first name field
+      if(name1 == "") {
+      document.getElementById("mg1").innerHTML = "**Fill the first name";
+      return false;
+    }
+    
+	if(name2 == "") {
+      document.getElementById("mg2").innerHTML = "**Fill the last name";
+      return false;
+    }
+
+	if(num == "") {
+      document.getElementById("mg5").innerHTML = "**Enter Your registered mobile no";
+      return false;
+    }
+
+      if(email == "") {
+      document.getElementById("mg6").innerHTML = "**Email address is Mandatory";
+      return false;
+    }
+
+	if(address1 == "") {
+      document.getElementById("mg7").innerHTML = "**Please provide Your address Details";
+      return false;
+    }
+
+
+	if(state == "") {
+      document.getElementById("mg9").innerHTML = "**Please Enter The Name of the State you belong to.";
+      return false;
+    }
+
+
+	if(city == "") {
+      document.getElementById("mg10").innerHTML = "**Please Enter Your City Name.";
+      return false;
+    }
+
+
+	if(pincode == "") {
+      document.getElementById("mg11").innerHTML = "**Please Enter Your Pincode.";
+      return false;
+    }
+
+    //character data validation
+    if(!isNaN(name1)){
+      document.getElementById("mg1").innerHTML = "**Only characters are allowed";
+      return false;
+    }
+
+   //character data validation
+    if(!isNaN(name2)){
+      document.getElementById("mg2").innerHTML = "**Only characters are allowed";
+      return false;
+    } 
+   
+     else {
+      alert ("You Have Successfully registered to our Website");
+      document.write("JavaScript form has been submitted successfully");
+    }
+ }
+
+</script>

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/demo.css" />
+
+    <link rel="stylesheet" href="/css/style_sa.css" />
+    <link rel="stylesheet" href="/css/product-pages.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/style_si.css" />
+    
+    
+    <style>
+      #myUL {
+        list-style: none;
+      }
+
+      .navbar input {
+        align-items: flex-end;
+      }
+      
+      
+      .main-wrapper {
+  margin-top: 0rem;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow-x: 0;
+}
+      
+    </style>
+   
+
+
+
+  </head>
+  <body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a class="logo"
+        ><img
+          src="/image/logo.jpeg"
+          alt="cell city"
+          height="45rem"
+          width="45rem"
+        />
+        <p>Cell City</p></a
+      >
+      <div class="navbar">
+      <nav >
+        <a href="#home">home</a>
+        <a href="/product-pages/product1.html">products</a>
+        <a href="#categories">catgeories</a>
+        <a href="#review">review</a>
+      </nav>
+    </div>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div hiddenclass="fas fa-shopping-cart Cart-Container" hidden id="cart-btn"></div>
+        <a href="Details.html" target="_blank"><div class="fas fa-user"  id="login-btn"></div></a> 
+       </div>
+        
+      <form action="" class="search-form">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myJunction()"
+          placeholder="Search"
+          title="Type in a name"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      
+
+     
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Buy new latest <span>Mobiles</span> in a click</h3>
+        <p>Cell City -</p>
+        <br />
+        <a href="/product-pages/product1.html" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    
+    <!-- products section starts  -->
+
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="main-title">
+          <h1>Best Seller</h1>
+        </div>
+        <div class="display-style-btns">
+          <button type="button" id="grid-active-btn">
+            <i class="fas fa-th"></i>
+          </button>
+          <button type="button" id="details-active-btn">
+            <i class="fas fa-list-ul"></i>
+          </button>
+        </div>
+<ul id="myUL">
+
+        <div class="item-list">
+          <li><div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/iphone 13 pro max.1.jpg"
+                style="width: 70rem"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/iphone 13 pro max.html"
+                class="item-name product-name"
+                >iPhone 13 pro max(Renewed)</a
+              >
+              <span>256GB storage </span>
+              <div class="item-price">
+                <span class="new-price product-price">₹54999</span>
+              </div>
+              
+              <button type="button" class="btn">
+                <a href="/specification-pages/iphone 13 pro max.html">Buy Now</a>
+                
+              </button>
+
+                
+            </div>
+          </div>
+        </li>
+          
+
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img class="product-img" src="/products images/iphone 13.1.jpg" />
+              <div class="icon-list">
+                <button type="button">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button type="button">
+                  <i class="far fa-heart"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/Iphone 13.html"
+                class="item-name product-name"
+                >iPhone 13(Renewed) </a
+              >
+              <span>128GB ROM</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹44999</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/Iphone 13.html">Buy Now</a>
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img class="product-img" src="/products images/samsung galaxy s22 ultra.1.jpg" />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/samsung galaxy s22 ultra.html"
+                class="item-name product-name"
+                >samsung Galaxy S22 Ultra(Renewed)</a
+              >
+              <span>12GB RAM & 256GB Storage</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹44999</span>
+              </div>
+
+              <button type="button" class="btn">
+                <a href="/specification-pages/samsung galaxy s22 ultra.html">Buy Now</a>
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/samsung galaxy Z fold 3.1.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/samsung galaxy Z fold 3.html"
+                class="item-name product-name"
+                >Samsung Galaxy Z Fold 3(Renewed)</a
+              >
+              <span>12GB RAM, 256GB ROM</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹50000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/samsung galaxy Z fold 3.html"
+                  >Buy Now</a
+                >
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/google pixel 6 pro.1.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/google pixel 6 pro.html"
+                class="item-name product-name"
+                >Google Pixel 6 Pro(Renewed)</a
+              >
+              <span> 12GB RAM & 256GB strorage</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹45000</span>
+              </div>
+
+              <button type="button" class="btn">
+                <a href="/specification-pages/google pixel 6 pro.html">Buy Now</a>
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/vivo v23 pro.3.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/Vivo V23 pro.html"
+                class="item-name product-name"
+                >vivo V23 Pro</a
+              >
+              <span>8GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹25000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/Vivo V23 pro.html"
+                  >Buy Now</a
+                >
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/samsung galaxy Z flip 3.1.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/Samsung galaxy Z flip 3.html"
+                class="item-name product-name"
+                >Samsung Galaxy Z Flip 3(Renewed)</a
+              >
+              <span>8GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price product-price">₹46000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/Samsung galaxy Z flip 3.html">Buy Now</a>
+              </button>
+              
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/oneplus 10 pro.4.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/oneplus 10 pro.html"
+                class="item-name product-name"
+                >Oneplus 10 Pro(Renewed)</a
+              >
+              <span>8GB RAM & 128GB ROM</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹25000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/oneplus 10 pro.html">Buy Now</a>
+              </button>
+            
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/oneplus 10R.2.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/oneplus10R-150watt.html"
+                class="item-name product-name"
+                >Oneplus 10R(Renewed)</a
+              >
+              <span>12GB RAM & 256GB ROM</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹34000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/oneplus10R-150watt.html">Buy Now</a>
+              </button>
+              
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/samsung galaxy s21 FE.1.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/samsung galaxy s21 fe.html"
+                class="item-name product-name"
+                >Samsung Galaxy S21 FE</a
+              >
+              <span>6GB RAM & 128GB Storage</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹30000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/samsung galaxy s21 fe.html">Buy Now</a>
+              </button>
+             
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img
+                class="product-img"
+                src="/products images/vivo X70 pro.1.jpg"
+              />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/Vivo X70 pro.html"
+                class="item-name product-name"
+                >Vivo X70 Pro(Renewed)</a
+              >
+              <span>12GB RAM & 256GB ROM</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹40000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/Vivo X70 pro.html">Buy Now</a>
+              </button>
+              
+            </div>
+          </div>
+</li>
+<li>
+          <div class="item">
+            <div class="item-img">
+              <img class="product-img" src="/products images/samsung galaxy s21 ultra.1.jpg" />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/samsung S21 ultra.html"
+                class="item-name product-name"
+                >Samsung Galaxy S21 Ultra</a
+              >
+              <span>12GB RAM & 256GB ROM</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹36000</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/samsung S21 ultra.html">Buy Now</a>
+              </button>
+              
+            </div>
+          </div>
+        
+      </li>
+      <li>
+        <div class="item">
+          <div class="item-img">
+            <img class="product-img" src="/products images/vivo x80 pro.1.jpg" />
+          </div>
+          <div class="item-detail">
+            <a
+              href="/specification-pages/vivo x80-pro.html"
+              class="item-name product-name"
+              >Vivo X80 Pro</a
+            >
+            <span>12GB RAM & 256GB ROM</span>
+            <div class="item-price product-price">
+              <span class="new-price">₹34999</span>
+            </div>
+            <button type="button" class="btn">
+              <a href="/specification-pages/vivo x80-pro.html">Buy Now</a>
+            </button>
+            
+          </div>
+        </div>
+      </li>
+        <li>
+          <div class="item">
+            <div class="item-img">
+              <img class="product-img" src="/products images/google pixel 6A.1.jpg" />
+            </div>
+            <div class="item-detail">
+              <a
+                href="/specification-pages/google pixel-6A.html"
+                class="item-name product-name"
+                >Google pixel 6A</a
+              >
+              <span>12GB RAM & 256GB ROM</span>
+              <div class="item-price product-price">
+                <span class="new-price">₹29999</span>
+              </div>
+              <button type="button" class="btn">
+                <a href="/specification-pages/google pixel-6A.html">Buy Now</a>
+              </button>
+              
+            </div>
+          </div>
+        
+      </li>
+    
+      <li>
+        <div class="item">
+          <div class="item-img">
+            <img class="product-img" src="/products images/IQOO 9 pro.1.jpg" />
+          </div>
+          <div class="item-detail">
+            <a
+              href="/specification-pages/IQOO 9 pro.html"
+              class="item-name product-name"
+              >IQOO 9 Pro(Renewed)</a
+            >
+            <span>8GB RAM & 256GB ROM</span>
+            <div class="item-price product-price">
+              <span class="new-price">₹35000</span>
+            </div>
+            <button type="button" class="btn">
+              <a href="/specification-pages/IQOO 9 pro.html">Buy Now</a>
+            </button>
+            
+          </div>
+        </div>
+      
+    </li>
+      
+    
+      </div>
+    </ul>
+      </div>
+    </div>
+
+    <!-- products section ends -->
+
+   <!-- categories section starts  -->
+
+   <section class="categories" id="categories">
+    <h1 class="heading">Top <span>categories</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="/products images/apple logo.png" alt="" />
+        <h3>Apple</h3>
+        <p>Buy New Latest iPhone Smartphones</p>
+        <a href="/categories/apple.html" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img
+          src="/products images/OnePlus_Logo.png"
+          alt=""
+        />
+        <h3>OnePlus</h3>
+        <p>Buy New Latest OnePlus Smartphones</p>
+        <a href="/categories/oneplus.html" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img
+          src="/products images/samsung logo.png"
+          alt=""
+          style="width: 22rem"
+        />
+        <h3>Samsung</h3>
+        <p>Buy New Latest Samsung</p>
+        <a href="/categories/samsung.html" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img src="/products images/vivo logo.png" alt="" />
+        <h3>Vivo</h3>
+        <p>Buy New Latest Vivo Smartphones</p>
+        <a href="/categories/vivo.html" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img src="/products images/google logo.jpeg" alt="REALME" />
+        <h3>Google Pixel</h3>
+        <p>Buy New Latest Google Pixel Smartphones</p>
+        <a href="/categories/google.html" class="btn">shop now</a>
+      </div>
+
+      <div class="box">
+        <img src="/products images/IQOO logo.jpg" alt="REALME" 
+        style="width:20rem ;" />
+        <h3>iQOO</h3>
+        <p>Buy New Latest iQOO Smartphones</p>
+        <a href="/categories/iQOO.html" class="btn">shop now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- categories section ends -->
+
+       <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+           
+            <p>Thank for providing me s22ultra 256gb  in very good budgets , soon I make one more order . 
+              Infact Indonesia product is very good no difference.
+              I love the product
+              
+              Thank you once again.</p>
+            <h3>Thusku Das</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            
+            <p>Today i got my one plus 10 pro 
+              delivered 😄 
+             Phone is pretty much awesome ❣️ but took too much time for the delivery still I loved it thank you so much</p>
+            <h3>G. Giriprasad</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            
+            <p>Best shop for buying apple products for cheaper rates and 100% genuine store and the staff is also very friendly.</p>
+            <h3>Aarti Soni</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            
+            <p>
+              I had pre-ordered this s21ultra  phone on 21st January 2021 and received the same on 5th February 2021 (I was a little late in pre-ordering. Believe me it takes a lot to consider for such amount of investment and the returns we get). And Yes, I have got my orders. They said that my product will delivered in 1-3 days but it takes 3-4 but yaa Thanks.
+            </p>
+            <h3>Sanjoy Das</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            
+            <p>
+              Updating daily that very good ,it is impressive
+              I also like your product 100% wholesale price
+              Orginal phone
+              Thank you team.
+            </p>
+            <h3>Shivani Mukherjee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            
+            <p>
+              I'm from Tripura i found your warehouse address and they didn't allow me to warehouse
+              Then i got to know your website and all 
+              I ordered from Agartala i got delivered in 5 days but you said it will be delivered in 4 days, 
+              All the way thanks for the service .
+              Next order please try to make fast delivered
+            </p>
+            <h3>Kaustubh Pradhan</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+    
+        <!-- footer section starts  -->
+    
+        <section class="footer">
+          <div class="box-container">
+            <div class="box">
+              <h3>Cell City <i class="fas"></i></h3>
+              <p>CONTACT US / FOLLOW US ON</p>
+              <div class="share">
+                <a
+                  href="https://wa.me/+919820939019"
+                  class="fab fa-whatsapp-square"
+                  target="_blank"
+                ></a>
+    
+                <a
+                  href="https://www.instagram.com/ajayinstagrm/"
+                  class="fab fa-instagram"
+                  target="_blank"
+                >
+                </a>
+              </div>
+            </div>
+    
+            <div class="box">
+              <h3>contact info</h3>
+              <a href="tel:+91 9820939019" class="links">
+                <i class="fas fa-phone"></i> +91 9820939019
+              </a>
+              <a href="mailto:carecellcity@gmail.com" class="links">
+                <i class="fas fa-envelope"></i> carecellcity@gmail.com
+              </a>
+              <a
+                href="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"
+                class="links"
+                target="_blank"
+              >
+                <i class="fas fa-map-marker-alt"></i> mumbai, india
+              </a>
+            </div>
+    
+            <div class="box">
+              <h3>Policies</h3>
+              <a href="/aboutus1.html" class="links">
+                <i class="fas fa-arrow-right"></i> About Us
+              </a>
+              <a href="/policies/returnandrefunds1.html" class="links">
+                <i class="fas fa-arrow-right"></i> Return & Refund Policy
+              </a>
+              <a href="/policies/privacypolicy.html" class="links">
+                <i class="fas fa-arrow-right"></i> Privacy Policy
+              </a>
+              <a href="/policies/termsandcondition.html" class="links">
+                <i class="fas fa-arrow-right"></i> Terms & Conditions
+              </a>
+            </div>
+    
+            <div class="box">
+              <h3>features</h3>
+              <a href="/warrenty.html" class="links">
+                <i class="fas fa-arrow-right"></i> Warrenty
+              </a>
+              <a href="/easypayment.html" class="links">
+                <i class="fas fa-arrow-right"></i> Easy Payment
+              </a>
+            </div>
+          </div>
+    
+          <div class="credit">
+            Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+          </div>
+        </section>
+    
+        <!-- footer section ends -->
+    
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+        <!-- custom js file link  -->
+        <script src="/js/script.js"></script>
+        
+        <script src="/js/product-pages.js"></script>
+       
+        <script src="/js/search.js"></script>
+      </body>
+    </html>

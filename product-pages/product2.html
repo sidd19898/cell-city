@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell City | Smartphones Shop</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/demo.css" />
+    <link rel="stylesheet" href="/css/style_sa.css" />
+    <link rel="stylesheet" href="/css/style_si.css" />
+    <link rel="stylesheet" href="/css/product-pages.css" />
+    <style>
+      #myUL {
+        list-style: none;
+      }
+
+      .navbar input {
+        align-items: flex-end;
+      }
+      
+      
+      .main-wrapper {
+  margin-top: 0rem;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow-x: 0;
+}
+      
+    </style>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a class="logo"
+        ><img
+          src="/image/logo.jpeg"
+          alt="cell city"
+          height="45rem"
+          width="45rem"
+        />
+        <p>Cell City</p></a
+      >
+
+      <nav class="navbar">
+        <a href="/index.html">home</a>
+        <a href="/categories/apple.html"><strong>Apple</strong></a>
+        <a href="/categories/google.html"><strong>Google</strong></a>
+        <a href="/categories/iQOO.html"><strong>IQOO</strong></a>
+        <a href="/categories/oneplus.html"><strong>Oneplus</strong></a>
+        <a href="/categories/samsung.html"><strong>Samsung</strong></a>
+        <a href="/categories/vivo.html"><strong>Vivo</strong></a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div hidden class="fas fa-shopping-cart Cart-Container" id="cart-btn"></div>
+        <div hidden class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myJunction()"
+          placeholder="Search"
+          title="Type in a name"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Buy new lates <span>Mobiles</span> in a click</h3>
+        <p>Cell City -</p>
+        <br />
+        <a href="/product-pages/product3.html" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Product lists-->
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="main-title">
+          <h1>Best Seller</h1>
+        </div>
+        <div class="display-style-btns">
+          <button type="button" id="grid-active-btn">
+            <i class="fas fa-th"></i>
+          </button>
+          <button type="button" id="details-active-btn">
+            <i class="fas fa-list-ul"></i>
+          </button>
+        </div>
+<ul id="myUL">
+        <div class="item-list">
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/samsung galaxy s21 ultra.2.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/samsung S21 ultra.html" class="item-name">Samsung Galaxy S21 Ultra</a>
+              <span>12GB & 256GB storage </span>
+              <div class="item-price">
+                <span class="new-price">₹36000</span>
+              </div>
+              <p>
+                108 MP (wide) + 10 MP (periscope telephoto) + 10 MP (telephoto) + 12 MP (ultrawide).<br>
+                40 MP (wide) Front Camera.<br>
+                Li-Po 5000 mAh + Fast charging 25W + USB Power Delivery 3.0+ Fast Qi/PMA wireless charging 15W + Reverse wireless charging 4.5W.<br>
+                Android 11 + One UI 3.1.<br>
+                Octa-core (1x2.9 GHz Cortex-X1 & 3x2.80 GHz Cortex-A78 & 4x2.2 GHz Cortex-A55).<br>
+                Dynamic AMOLED 2X Display.<br>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/samsung S21 ultra.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+         <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/vivo v20 pro.1.png" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/vivo v20 pro.html" class="item-name">Vivo V20 pro</a>
+            <span>8GB RAM & 128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹16000</span>
+            </div>
+            <p>
+              Display: 6.44 inches (16.35 cm), AMOLED.<br>
+                  Memory: 8GB RAM, 128GB ROM.<br>
+                  Processor: Qualcomm Snapdragon 765G, Octa Core, 2.4 GHz.<br>
+                  Camera:64 MP + 8 MP + 2 MP Triple Rear & 44 MP + 8 MP Dual Front Camera.<br>
+                  Battery: 4000 mAh with 33W Fast Charging.<br>
+                  Operating system: Android 10, Firmware - Funtouch OS 11.<br>
+                  Security (Lock): In-display Fingerprint Sensor.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/vivo v20 pro.html">Buy Now</a>
+            </button>
+          </div>
+        </div>
+</li>
+         <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone xs.2.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iPhoneXS.html" class="item-name">iPhone XS</a>
+            <span>4GB RAM & 64GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹25000</span>
+            </div>
+            <p>
+              Display: 5.8 inches (14.73 cm), Full Retina HD.<br>
+                 Memory: 4GB RAM, 64GB ROM.<br>
+                 Processor: Apple A12 Bionic Chip Processor.<br>
+                 Camera: 12MP + 12MP Dual Rear & 12MP Front Camera.<br>
+                 Security (Lock): Password | Pattern | Pin | Face Unlock.<br>
+                 GPU (Graphic): Apple GPU (4-core Graphics) Next-generation NeuralEngine.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iPhoneXS.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+         
+          <li> <div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 9 pro.1.jpg" />
+             
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus 9 pro.html" class="item-name">OnePlus 9 pro</a>
+              <span>8GB RAM, 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹27000</span>
+              </div>
+              <p>
+               
+                Display: 6.7 inches (17.02 cm), AMOLED with LTPO, 120 Hz Refresh Rate.<br>
+                Processor: Qualcomm Snapdragon 888, Octa Core.<br>
+                Camera: 48 MP + 50 MP + 8 MP + 2 MP Quad Rear & 16 MP Front Camera.<br>
+                Battery: 4500 mAh with 50W Fast Charging.<br>
+                Operating system: Android 11, OxygenOS 11.<br>
+                Network Connectivity: Supports 5G Sub6 Network.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus 9 pro.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+         
+         <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 12 mini.2.jpg" />
+            <div class="icon-list">
+              <button type="button">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+              <button type="button">
+                <i class="far fa-heart"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iPhone12 mini.html" class="item-name">iPhone 12 mini</a>
+            <span>64GB strorage</span>
+            <div class="item-price">
+              <span class="new-price">₹35000</span>
+            </div>
+            <p>
+              Display: 5.4 inches (13.72 cm), Super Retina XDR.<br>
+              Memory: 4GB RAM, 64GB ROM.<br>
+              Processor: Apple A14 Bionic, Hexa Core.<br>
+              Camera: 12MP + 12MP Dual Rear & 12MP Front Camera.<br>
+              Battery: 2227 mAh with Turbo Charging.<br>
+              Security (Lock): Password | Pattern | Pin | Face Unlock.<br>
+               GPU (Graphic): Apple GPU (4-core Graphics) Next-generation NeuralEngine.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iPhone12 mini.html">Buy Now</a>
+            </button>
+          </div>
+        </div>
+</li>
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/oneplus nord 2.1.jpg" />
+            
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/oneplus nord2.html" class="item-name">OnePlus Nord 2</a>
+            <span>8GB RAM & 128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹22000</span>
+            </div>
+            <p>
+              Display:6.43 inches (16.33 cm) Fluid AMOLED 90Hz Display.<br>
+              Memory: 8GB RAM, 128GB ROM.<br>
+              Processor: MediaTek Dimensity 900 Processor.<br>
+              Rear Camera:64 MP + 8 MP + 2 MP Front Camera: 16 MP.<br>
+              Battery: 4,500mAh (dual-cell 2,250mAh batteries, non-removable).<br>
+              Security (Lock): Password | Pattern | Pin | | Fingerprint Sensor | Face Unlock.<br>
+              Operating system: OxygenOS based on Android 11.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/oneplus nord2.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+          
+        <li> <div class="item">
+          <div class="item-img">
+            <img src="/products images/oneplus 7T.2.jpg" />
+           
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/oneplus 7T.html" class="item-name">OnePlus 7T</a>
+            <span>8GB RAM & 128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹24000</span>
+            </div>
+            <p>
+              Display:6.55 inches (16.63 cm), AMOLED, 90 Hz Refresh Rate.<br>
+              Memory: 8GB RAM, 128GB ROM.<br>
+              Processor: Qualcomm Snapdragon 855 Plus, Octa Core, 2.96 GHz.<br>
+              Camera: 48 MP + 12 MP + 16 MP Triple Rear & 16 MP Front Camera.<br>
+              Battery: 3800 mAh.<br>
+              Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+              Operating system: OxygenOS, 7nm,Qualcomm AI Engine.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/oneplus 7T.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+         
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/oneplus 9R.2.jpg" />
+           
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/oneplus 9R.html" class="item-name">OnePlus 9R</a>
+            <span>128GB storage & 8GB RAM</span>
+            <div class="item-price">
+              <span class="new-price">₹26000</span>
+            </div>
+            <p>
+              Dimensions: 161 mmx74.1 mmx8.4 mm.<br>
+                 Octa Core.<br>
+                 Camera: 48 MP + 50 MP + 8 MP + 2 MP Quad Rear & 16 MP Front Camera.<br>
+                 Battery: 4500 mAh Li-ion battery.<br>
+                 Processor: Octa core (3.2 GHz, Single core, Kryo 585 + 2.42 GHz, Tricore, Kryo 585 + 1.8 GHz, Quad core, Kryo 585).<br>
+                 Operating system: Android v11, Graphic Adrena 650.<br>
+                 Network Connectivity: Supports 5G Network.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/oneplus 9R.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+          
+         <li><div class="item">
+          <div class="item-img">
+            <img src="/products images/iphone 12 pro.1.jpg" />
+           
+          </div>
+          <div class="item-detail">
+            <a href="/specification-pages/iPhone12 pro.html" class="item-name">iPhone 12 pro(Renewed)/a>
+            <span>128GB storage</span>
+            <div class="item-price">
+              <span class="new-price">₹45000</span>
+            </div>
+            <p>
+              Display: 6.1 inches (15.49 cm), Super Retina XDR.<br>
+              Memory: 4GB RAM, 128GB ROM.<br>
+              Processor: Apple A14 Bionic, Hexa Core.<br>
+              Camera: 12MP + 12MP Dual Rear & 12MP Front Camera.<br>
+              Battery: 2815 mAh with Turbo Charging.<br>
+              Security (Lock): Password | Pattern | Pin | Face Unlock.<br>
+             GPU (Graphic): Apple GPU (4-core Graphics) Next-generation NeuralEngine.<br>
+            </p>
+            <button type="button" class="add-btn">
+              <a href="/specification-pages/iPhone12 pro.html">Buy Now</a>
+            </button>
+          </div>
+        </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 10R.2.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus10R-80watt.html" class="item-name">OnePlus 10R (80 watt)(Renewed)</a>
+              <span>8GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹28000</span>
+              </div>
+              <p>
+                Display:6.7" Fluid AMOLED Screen, 120Hz refresh rate 1080x2412, 394 PPI Corning Gorilla Glass 5.<br>
+                Memory: 8GB RAM, 128GB ROM.<br>
+                Processor:64-bit Octa-core 2.85 GHz ARM... MediaTek Dimensity 8100 Max.<br>
+                Camera:Triple camera, 50 MP + 8 MP + 2 MP, Dual LED flash Single selfie camera, 16 MP.<br>
+                Battery: Li-Polymer 5000 mAh 80W fast battery charging USB Type-C charging connector.<br>
+                Operating system: Android 12.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus10R-80watt.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus nord CE.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus nord CE.html" class="item-name">OnePlus Nord CE</a>
+              <span>6GB RAM & 128GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹20000</span>
+              </div>
+              <p>
+                Display: 6.43 inches (16.33 cm), Fluid AMOLED, 90 Hz Refresh Rate.<br>
+                Memory: 6GB RAM, 128GB ROM.<br>
+                Processor: Qualcomm Snapdragon 750G, Octa Core, 2.4 GHz.<br>
+                Camera: 64 MP + 8 MP + 2 MP Triple Rear & 16 MP Front Camera.<br>
+                Battery: 4500 mAh with Warp Charging.<br>
+                Security (Lock): Password | Pattern | Pin | | Fingerprint Sensor | Face Unlock.<br>
+                Operating system: OxygenOS GPU (Graphics) adrena 619.<br>
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus nord CE.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+          <li><div class="item">
+            <div class="item-img">
+              <img src="/products images/oneplus 10R.1.jpg" />
+              
+            </div>
+            <div class="item-detail">
+              <a href="/specification-pages/oneplus10R-150watt.html" class="item-name">OnePlus 10R (150 watt)(Renewed)</a>
+              <span>12GB RAM & 256GB storage</span>
+              <div class="item-price">
+                <span class="new-price">₹34000</span>
+              </div>
+              <p>
+                Display: 6.7 inches (17.01 cm), Fluid OLED, 120 Hz Refresh Rate.<br>
+                Memory: 12GB RAM, 256GB ROM.<br>
+                Processor: MediaTek Dimensity 8100 Max, Octa Core.<br>
+                Camera: 50 MP + 8 MP + 2 MP Triple Rear & 16 MP Front Camera.<br>
+                Battery: 5000 mAh with 80W SuperVOOC Charging.<br>
+                Operating system: OxygenOS, Android 12.<br>
+                Security (Lock): Password | Pattern | PIN | Fingerprint Sensor | Face Unlock.<br>
+                distinctio, qui numquam dolore, corrupti, enim consectetur cum?
+              </p>
+              <button type="button" class="add-btn">
+                <a href="/specification-pages/oneplus10R-150watt.html">Buy Now</a>
+              </button>
+            </div>
+          </div></li>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- PAger next page and previous page-->
+    <div class="pagination">
+      <a href="#next">&laquo;</a>
+      <a href="/product-pages/product1.html" class="next1 previous1">1</a>
+      <a href="/product-pages/product2.html" class="next2 previous2">2</a>
+      <a href="/product-pages/product3.html" class="next3 previous3">3</a>
+      <a href="/product-pages/product4.html" class="next4 previous4">4</a>
+      <a href="#previous">&raquo;</a>
+    </div>
+
+    <!-- footer section starts  -->
+
+     <!-- footer section starts  -->
+    
+     <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Cell City <i class="fas"></i></h3>
+          <p>CONTACT US / FOLLOW US ON</p>
+          <div class="share">
+            <a
+              href="https://wa.me/+919820939019"
+              class="fab fa-whatsapp-square"
+              target="_blank"
+            ></a>
+
+            <a
+              href="https://www.instagram.com/ajayinstagrm/"
+              class="fab fa-instagram"
+              target="_blank"
+            >
+            </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="tel:+91 9820939019" class="links">
+            <i class="fas fa-phone"></i> +91 9820939019
+          </a>
+          <a href="mailto:carecellcity@gmail.com" class="links">
+            <i class="fas fa-envelope"></i> carecellcity@gmail.com
+          </a>
+          <a
+            href="https://www.google.com/maps/place/Solitaire+Corporate+Park/@19.1117627,72.8585289,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c8372bf0a0dd:0xb74305ab55e66a1!8m2!3d19.1117627!4d72.8607176"
+            class="links"
+            target="_blank"
+          >
+            <i class="fas fa-map-marker-alt"></i> mumbai, india
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Policies</h3>
+          <a href="/aboutus1.html" class="links">
+            <i class="fas fa-arrow-right"></i> About Us
+          </a>
+          <a href="/policies/returnandrefunds1.html" class="links">
+            <i class="fas fa-arrow-right"></i> Return & Refund Policy
+          </a>
+          <a href="/policies/privacypolicy.html" class="links">
+            <i class="fas fa-arrow-right"></i> Privacy Policy
+          </a>
+          <a href="/policies/termsandcondition.html" class="links">
+            <i class="fas fa-arrow-right"></i> Terms & Conditions
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>features</h3>
+          <a href="/warrenty.html" class="links">
+            <i class="fas fa-arrow-right"></i> Warrenty
+          </a>
+          <a href="/easypayment.html" class="links">
+            <i class="fas fa-arrow-right"></i> Easy Payment
+          </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        Copyright &copy; <strong> Cell-City </strong> | all rights reserved
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/product-pages.js"></script>
+   
+    <script src="/js/search.js"></script>
+  </body>
+</html>
