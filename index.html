@@ -12,37 +12,25 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-  <!-- Local CSS files -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/demo.css" />
   <link rel="stylesheet" href="css/style_sa.css" />
   <link rel="stylesheet" href="css/product-pages.css" />
   <link rel="stylesheet" href="css/style_si.css" />
 
   <style>
-    #myUL {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    .navbar input {
-      align-items: flex-end;
-    }
-
-    .main-wrapper {
-      margin-top: 0;
-      background-color: #fff;
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
+    #myUL { list-style: none; }
+    .navbar input { align-items: flex-end; }
+    .main-wrapper { margin-top: 0; background-color: #fff; min-height: 100vh; overflow-x: hidden; }
   </style>
 </head>
 
 <body>
-  <!-- Header section -->
+
+  <!-- header section starts -->
   <header class="header">
     <a class="logo">
-      <img src="image/logo.jpeg" alt="cell city" height="45" width="45" />
+      <img src="image/logo.jpeg" alt="cell city" height="45rem" width="45rem" />
       <p>Cell City</p>
     </a>
     <div class="navbar">
@@ -56,19 +44,17 @@
     <div class="icons">
       <div class="fas fa-bars" id="menu-btn"></div>
       <div class="fas fa-search" id="search-btn"></div>
-      <div class="fas fa-shopping-cart Cart-Container" hidden id="cart-btn"></div>
-      <a href="Details.html" target="_blank">
-        <div class="fas fa-user" id="login-btn"></div>
-      </a>
+      <div hiddenclass="fas fa-shopping-cart Cart-Container" hidden id="cart-btn"></div>
+      <a href="Details.html" target="_blank"><div class="fas fa-user" id="login-btn"></div></a>
     </div>
-
     <form action="" class="search-form">
       <input type="text" id="myInput" onkeyup="myJunction()" placeholder="Search" title="Type in a name" />
       <label for="search-box" class="fas fa-search"></label>
     </form>
   </header>
+  <!-- header section ends -->
 
-  <!-- Home section -->
+  <!-- home section starts -->
   <section class="home" id="home">
     <div class="content">
       <h3>Buy new latest <span>Mobiles</span> in a click</h3>
@@ -77,60 +63,58 @@
       <a href="product-pages/product1.html" class="btn">shop now</a>
     </div>
   </section>
+  <!-- home section ends -->
 
-  <!-- Products section -->
+  <!-- products section starts -->
   <div class="main-wrapper">
     <div class="container">
-      <div class="main-title">
-        <h1>Best Seller</h1>
-      </div>
+      <div class="main-title"><h1>Best Seller</h1></div>
       <div class="display-style-btns">
         <button type="button" id="grid-active-btn"><i class="fas fa-th"></i></button>
         <button type="button" id="details-active-btn"><i class="fas fa-list-ul"></i></button>
       </div>
 
       <ul id="myUL">
-        <!-- Product 1 -->
         <li>
           <div class="item">
             <div class="item-img">
               <img class="product-img" src="products images/iphone 13 pro max.1.jpg" style="width: 70rem" />
             </div>
             <div class="item-detail">
-              <a href="specification-pages/iphone 13 pro max.html" class="item-name product-name">iPhone 13 Pro Max (Renewed)</a>
+              <a href="specification-pages/iphone 13 pro max.html" class="item-name product-name">iPhone 13 pro max(Renewed)</a>
               <span>256GB storage</span>
-              <div class="item-price">
-                <span class="new-price product-price">₹54999</span>
-              </div>
+              <div class="item-price"><span class="new-price product-price">₹54999</span></div>
               <button type="button" class="btn"><a href="specification-pages/iphone 13 pro max.html">Buy Now</a></button>
             </div>
           </div>
         </li>
 
-        <!-- Product 2 -->
         <li>
           <div class="item">
             <div class="item-img">
               <img class="product-img" src="products images/iphone 13.1.jpg" />
+              <div class="icon-list">
+                <button type="button"><i class="fas fa-shopping-cart"></i></button>
+                <button type="button"><i class="far fa-heart"></i></button>
+              </div>
             </div>
             <div class="item-detail">
-              <a href="specification-pages/Iphone 13.html" class="item-name product-name">iPhone 13 (Renewed)</a>
+              <a href="specification-pages/Iphone 13.html" class="item-name product-name">iPhone 13(Renewed)</a>
               <span>128GB ROM</span>
-              <div class="item-price">
-                <span class="new-price product-price">₹44999</span>
-              </div>
+              <div class="item-price"><span class="new-price product-price">₹44999</span></div>
               <button type="button" class="btn"><a href="specification-pages/Iphone 13.html">Buy Now</a></button>
             </div>
           </div>
         </li>
 
-        <!-- Add all other products similarly -->
-        <!-- ... -->
+        <!-- Add all other products here, using the same structure and relative paths -->
+
       </ul>
     </div>
   </div>
+  <!-- products section ends -->
 
-  <!-- Categories section -->
+  <!-- categories section starts -->
   <section class="categories" id="categories">
     <h1 class="heading">Top <span>categories</span></h1>
     <div class="box-container">
@@ -172,64 +156,14 @@
       </div>
     </div>
   </section>
+  <!-- categories section ends -->
 
-  <!-- Review section -->
-  <section class="review" id="review">
-    <h1 class="heading">customer's <span>review</span></h1>
-    <div class="swiper review-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide box">
-          <p>Thank for providing me s22ultra 256gb in very good budgets...</p>
-          <h3>Thusku Das</h3>
-          <div class="stars">
-            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            <i class="fas fa-star"></i><i class="fas fa-star"></i>
-          </div>
-        </div>
-        <!-- Add other reviews similarly -->
-      </div>
-    </div>
-  </section>
+  <!-- Add your review and footer sections here using same relative paths -->
 
-  <!-- Footer -->
-  <section class="footer">
-    <div class="box-container">
-      <div class="box">
-        <h3>Cell City</h3>
-        <p>CONTACT US / FOLLOW US ON</p>
-        <div class="share">
-          <a href="https://wa.me/+919820939019" class="fab fa-whatsapp-square" target="_blank"></a>
-          <a href="https://www.instagram.com/ajayinstagrm/" class="fab fa-instagram" target="_blank"></a>
-        </div>
-      </div>
-      <div class="box">
-        <h3>contact info</h3>
-        <a href="tel:+91 9820939019" class="links"><i class="fas fa-phone"></i> +91 9820939019</a>
-        <a href="mailto:carecellcity@gmail.com" class="links"><i class="fas fa-envelope"></i> carecellcity@gmail.com</a>
-        <a href="https://www.google.com/maps/place/Solitaire+Corporate+Park/" class="links" target="_blank">
-          <i class="fas fa-map-marker-alt"></i> Mumbai, India
-        </a>
-      </div>
-      <div class="box">
-        <h3>Policies</h3>
-        <a href="aboutus1.html" class="links"><i class="fas fa-arrow-right"></i> About Us</a>
-        <a href="policies/returnandrefunds1.html" class="links"><i class="fas fa-arrow-right"></i> Return & Refund Policy</a>
-        <a href="policies/privacypolicy.html" class="links"><i class="fas fa-arrow-right"></i> Privacy Policy</a>
-        <a href="policies/termsandcondition.html" class="links"><i class="fas fa-arrow-right"></i> Terms & Conditions</a>
-      </div>
-      <div class="box">
-        <h3>features</h3>
-        <a href="warrenty.html" class="links"><i class="fas fa-arrow-right"></i> Warranty</a>
-        <a href="easypayment.html" class="links"><i class="fas fa-arrow-right"></i> Easy Payment</a>
-      </div>
-    </div>
-    <div class="credit">
-      Copyright &copy; <strong>Cell-City</strong> | all rights reserved
-    </div>
-  </section>
-
-  <!-- Scripts -->
+  <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- Custom JS -->
   <script src="js/script.js"></script>
   <script src="js/product-pages.js"></script>
   <script src="js/search.js"></script>
